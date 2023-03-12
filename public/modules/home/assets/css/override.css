@@ -1,0 +1,11 @@
+.font-size-bold {
+    font-weight: 500 !important;
+}
+.control {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-grid.card-grid-v3 .card-grid-item {
+    padding: 20px;
+}

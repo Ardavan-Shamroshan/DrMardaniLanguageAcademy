@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <livewire:home::layouts.head-tag />
+    <livewire:layouts.head-tag />
     @yield('head-tag')
 
     <title>@yield('title', config('app.name', 'DrMardaniLanguageAcademy'))</title>
@@ -12,10 +12,10 @@
         <div class="app-overlay"></div>
 
         {{-- loader --}}
-        <livewire:home::layouts.loader />
+        <livewire:layouts.loader />
 
         {{-- header --}}
-        <livewire:home::layouts.header />
+        <livewire:layouts.header />
 
         {{-- content wrapper slot --}}
         <div id="app-onboarding" class="view-wrapper is-webapp" data-page-title="Blank Template" data-naver-offset="214" data-menu-item="#layouts-navbar-menu" data-mobile-item="#home-sidebar-menu-mobile">
@@ -33,7 +33,7 @@
                                 </label>
                             </div>
                             <a class="toolbar-link right-panel-trigger" data-panel="languages-panel">
-                                <img src="{{ asset('modules/home/assets/img/icons/flags/united-states-of-america.svg') }}" alt="">
+                                <img src="{{ asset('admin/assets/img/icons/flags/united-states-of-america.svg') }}" alt="">
                             </a>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
         </div>
 
         {{-- script --}}
-        <livewire:home::layouts.script />
+        <livewire:layouts.script />
         @yield('script')
     </div>
 </body>

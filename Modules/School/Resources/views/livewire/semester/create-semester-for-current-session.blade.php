@@ -1,5 +1,5 @@
 @section('head-tag')
-    <link rel="stylesheet" href="{{ asset('modules/home/assets/jalalidatepicker/persian-datepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin/assets/jalalidatepicker/persian-datepicker.min.css') }}">
 @endsection
 <div class="card-grid-item is-raised" style="text-align: left">
     {{-- <div> --}}
@@ -60,8 +60,8 @@
     </div>
 </div>
 @section('script')
-    <script src="{{ asset('modules/home/assets/jalalidatepicker/persian-date.min.js') }}"></script>
-    <script src="{{ asset('modules/home/assets/jalalidatepicker/persian-datepicker.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/jalalidatepicker/persian-date.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/jalalidatepicker/persian-datepicker.min.js') }}"></script>
 
     <script>
         $(document).ready(function () {

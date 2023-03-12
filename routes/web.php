@@ -30,3 +30,13 @@ Route::middleware('auth')->group(function () {
 
 
 require __DIR__.'/auth.php';
+
+
+// =======================================================================================================
+
+Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
+   // Dashboard
+    Route::get('dashboard', \App\Http\Livewire\Admin\Dashboard::class)->name('admin.dashboard');
+
+
+});

@@ -24,9 +24,9 @@
     <nav class="breadcrumb has-bullet-separator" aria-label="breadcrumbs">
         <ul>
             <li>
-                <a href="{{ route('home') }}"><span class="icon is-small is-solo"><i data-feather="home"></i></span></a>
+                <a href="{{ route('admin.dashboard') }}"><span class="icon is-small is-solo"><i data-feather="home"></i></span></a>
             </li>
-            <li><a href="{{ route('academic.setting') }}"><span>Academic</span></a></li>
+            <li><a href=""><span>Academic</span></a></li>
             <li><a class="disable"><span>Academic Setting</span></a></li>
         </ul>
     </nav>
@@ -35,8 +35,8 @@
         <!--List Empty Search Placeholder -->
         <div class="page-placeholder custom-text-filter-placeholder is-hidden">
             <div class="placeholder-content">
-                <img class="light-image" src="{{ asset('modules/home/assets/img/illustrations/placeholders/search-3.svg') }}" alt="">
-                <img class="dark-image" src="{{ asset('modules/home/assets/img/illustrations/placeholders/search-3-dark.svg') }}" alt="">
+                <img class="light-image" src="{{ asset('admin/assets/img/illustrations/placeholders/search-3.svg') }}" alt="">
+                <img class="dark-image" src="{{ asset('admin/assets/img/illustrations/placeholders/search-3-dark.svg') }}" alt="">
                 <h3>We couldn't find any matching results.</h3>
                 <p class="is-larger">Too bad. Looks like we couldn't find any matching results for the
                     search terms you've entered. Please try different search terms or criteria.</p>

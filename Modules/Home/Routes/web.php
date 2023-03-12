@@ -11,11 +11,11 @@
 |
 */
 
-Route::middleware(['auth', 'admin'])->prefix('home')->group(function() {
-    Route::get('/', [\Modules\Home\Http\Livewire\Home::class, '__invoke'])->name('home');
-});
-
-Route::middleware(['auth', 'admin'])->prefix('academic')->group(function() {
-    Route::get('/setting', [\Modules\Home\Http\Livewire\Academic\Setting::class, '__invoke'])->name('academic.setting');
-
-});
+// Route::middleware(['auth', 'admin'])->prefix('home')->group(function() {
+//     Route::get('/', [\Modules\Home\Http\Livewire\Home::class, '__invoke'])->name('home');
+// });
+//
+// Route::middleware(['auth', 'admin'])->prefix('academic')->group(function() {
+//     Route::get('/setting', [\Modules\Home\Http\Livewire\Academic\Setting::class, '__invoke'])->name('admin');
+//
+// });

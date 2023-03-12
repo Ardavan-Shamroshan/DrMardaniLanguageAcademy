@@ -25,7 +25,7 @@
     <nav class="breadcrumb has-bullet-separator" aria-label="breadcrumbs">
         <ul>
             <li>
-                <a href="{{ route('home') }}"><span class="icon is-small is-solo"><i data-feather="home"></i></span></a>
+                <a href="{{ route('admin.dashboard') }}"><span class="icon is-small is-solo"><i data-feather="home"></i></span></a>
             </li>
             <li><a class="disable"><span>School</span></a></li>
             <li><a class="disable"><span>Students</span></a></li>
@@ -86,5 +86,5 @@
 </div>
 
 @section('script')
-    <script src="{{ asset('modules/home/assets/js/datatables.js') }}" async></script>
+    <script src="{{ asset('admin/assets/js/datatables.js') }}" async></script>
 @endsection

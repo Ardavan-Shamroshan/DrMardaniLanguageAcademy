@@ -1,4 +1,4 @@
-@extends('home::layouts.master')
+@extends('home::resources.views.livewire.layouts.master')
 
 @section('content')
     <h1>Hello World</h1>

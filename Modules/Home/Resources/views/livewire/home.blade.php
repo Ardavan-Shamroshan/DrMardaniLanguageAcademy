@@ -13,7 +13,7 @@
                     <div class="column is-12">
                         <div class="illustration-header-2">
                             <div class="header-image">
-                                <img src="{{ asset('modules/home/assets/img/illustrations/dashboards/lifestyle/reading.svg') }}" alt="">
+                                <img src="{{ asset('admin/assets/img/illustrations/dashboards/lifestyle/reading.svg') }}" alt="">
                             </div>
                             <div class="header-meta">
                                 <h3>Hello, Erik.</h3>
@@ -218,8 +218,8 @@
                 <!--List Empty Search Placeholder -->
                 <div class="page-placeholder custom-text-filter-placeholder is-hidden">
                     <div class="placeholder-content">
-                        <img class="light-image" src="{{ asset('modules/home/assets/img/illustrations/placeholders/search-4.svg') }}" alt="">
-                        <img class="dark-image" src="{{ asset('modules/home/assets/img/illustrations/placeholders/search-4-dark.svg') }}" alt="">
+                        <img class="light-image" src="{{ asset('admin/assets/img/illustrations/placeholders/search-4.svg') }}" alt="">
+                        <img class="dark-image" src="{{ asset('admin/assets/img/illustrations/placeholders/search-4-dark.svg') }}" alt="">
                         <h3>We couldn't find any matching results.</h3>
                         <p class="is-larger">Too bad. Looks like we couldn't find any matching results for the
                             search terms you've entered. Please try different search terms or criteria.</p>
@@ -230,13 +230,13 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/22.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/22.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">Using flashy colors in your websites and apps </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/9.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/9.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Ana B.</span>
@@ -249,14 +249,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/23.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/23.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     Why it pays to profile your customers </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/40.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/40.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Jeanne M.</span>
@@ -269,14 +269,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/24.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/24.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     Building a consistent and talented team </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/19.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/19.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Greta K.</span>
@@ -289,14 +289,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/25.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/25.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     Building a consistent and talented team </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/28.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/28.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Edouard F.</span>
@@ -309,14 +309,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/26.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/26.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     What framework to choose to build a mobile app in 2020? </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/5.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/5.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Mary L.</span>
@@ -329,14 +329,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/27.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/27.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     Diving into building an e-commerce brand - part 1 </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/33.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/33.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Harvey M.</span>
@@ -349,14 +349,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/28.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/28.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     Diving into building an e-commerce brand - part 2 </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/33.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/33.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Harvey M.</span>
@@ -369,14 +369,14 @@
                     <!--Grid item-->
                     <div class="column is-3">
                         <a href="#" class="card-grid-item">
-                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('modules/home/assets/img/photo/demo/29.jpg') }}" alt="">
+                            <img src="https://via.placeholder.com/400x300" data-demo-src="{{ asset('admin/assets/img/photo/demo/29.jpg') }}" alt="">
                             <div class="card-grid-item-content">
                                 <h3 class="dark-inverted">
                                     How to make sure to reach the goals you set </h3>
                             </div>
                             <div class="card-grid-item-footer">
                                 <div class="h-avatar is-small">
-                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('modules/home/assets/img/avatars/photos/31.jpg') }}" alt="">
+                                    <img class="avatar" src="https://via.placeholder.com/150x150" data-demo-src="{{ asset('admin/assets/img/avatars/photos/31.jpg') }}" alt="">
                                 </div>
                                 <div class="meta">
                                     <span class="dark-inverted">Yasseen A.</span>

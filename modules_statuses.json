@@ -1,5 +1,4 @@
 {
-    "Home": true,
-    "School": true,
-    "Session": true
+    "Home": false,
+    "School": false
 }

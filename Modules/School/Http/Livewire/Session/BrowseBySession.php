@@ -86,8 +86,8 @@ class BrowseBySession extends Component
      * @return void
      */
     public function confirmed() {
-        return to_route('academic.setting');
-    }
+        return to_route('admin');
+    }   
 
     /**
      * Will be fired when clear session confirmed button is clicked

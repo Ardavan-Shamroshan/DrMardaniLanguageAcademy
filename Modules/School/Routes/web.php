@@ -25,14 +25,14 @@ Route::middleware(['auth', 'admin'])->prefix('school')->group(function () {
     // });
     //
     // Class
-    Route::prefix('class')->group(function () {
-        Route::get('', [\Modules\School\Http\Livewire\Class\ViewClasses::class, '__invoke'])->name('school.class');
-    });
-
-    // Student
-    Route::prefix('student')->group(function () {
-        Route::get('', [\Modules\School\Http\Livewire\Student\Students::class, '__invoke'])->name('school.student');
-    });
+    // Route::prefix('class')->group(function () {
+    //     Route::get('', [\Modules\School\Http\Livewire\Class\ViewClasses::class, '__invoke'])->name('school.class');
+    // });
+    //
+    // // Student
+    // Route::prefix('student')->group(function () {
+    //     Route::get('', [\Modules\School\Http\Livewire\Student\Students::class, '__invoke'])->name('school.student');
+    // });
     //
     // // Section
     // Route::prefix('class')->group(function () {

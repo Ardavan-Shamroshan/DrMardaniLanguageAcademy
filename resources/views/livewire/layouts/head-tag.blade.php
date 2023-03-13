@@ -15,10 +15,13 @@
 <link rel="stylesheet" href="{{ asset('admin/assets/css/override.css') }}" />
 
 <!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet" />
+{{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet" /> --}}
+{{-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet" /> --}}
 
 <!--Mapbox styles-->
+
+
+@yield('head-tag')
 
 {{-- livewire styles --}}
 @livewireStyles

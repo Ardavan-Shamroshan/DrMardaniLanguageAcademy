@@ -79,29 +79,11 @@
             @endauth
         </div>
         <div class="center">
-            @auth
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        @if (session()->has('browse_session_name') && session('browse_session_name') !== $current_school_session_name)
-                            <a class="is-danger is-outlined tag text-danger title" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-exclamation-diamond-fill me-2"></i> Browsing as Academic Session {{session('browse_session_name')}}
-                            </a>
-                        @elseif(\Modules\School\Entities\SchoolSession::query()->latest()->count() > 0)
-                            <span wire:loading class="loader is-small is-loading"></span>
-                            <span class="tag is-round title" href="#" tabindex="-1" aria-disabled="true">
-                                Current Academic Session
-                                {{ $current_school_session_name }}
-                            </span>
-                        @else
-                            <a class="is-danger is-outlined tag text-danger title" href="" tabindex="-1" aria-disabled="true"><i class="bi bi-exclamation-diamond-fill me-2"></i> Create an Academic Session.</a>
-                        @endif
-                    </li>
-                </ul>
-            @endauth
             <div id="webapp-navbar-menu" class="centered-drops">
                 <div class="centered-drop">
                     <div class="dropdown ُ">
                         <div class="is-trigger" aria-haspopup="true">
-                            <a href="{{ route('admin.dashboard') }}" class="button h-button is-rounded" aria-haspopup="true">
+                            <a href="{{ route('admin.dashboard') }}" class="button h-button is-rounded">
                                 <span>Dashboards</span>
                             </a>
                         </div>

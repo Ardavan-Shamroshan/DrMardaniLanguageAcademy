@@ -30,7 +30,12 @@
 
 <!-- Layouts js -->
 
+@yield('script')
+
+
+
 <script src="{{ asset('admin/assets/js/syntax.js') }}" async></script>
+
 
 {{-- livewire scripts --}}
 @livewireScripts

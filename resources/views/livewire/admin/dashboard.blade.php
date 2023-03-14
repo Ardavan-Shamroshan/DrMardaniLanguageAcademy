@@ -446,7 +446,7 @@
                                     <div class="column is-4">
                                         <div class="tile-grid-item">
                                             <div class="tile-grid-item-inner">
-                                                <img src="https://via.placeholder.com/150x150" data-demo-src="assets/img/icons/files/doc-2.svg" alt="">
+                                                <img src="{{ asset('admin/assets/img/icons/files/doc-2.svg') }}" data-demo-src="{{ asset('admin/assets/img/icons/files/doc-2.svg') }}" alt="">
                                                 <div class="meta">
                                                     <span class="dark-inverted">UX Ramp Up for Interns</span>
                                                     <span>

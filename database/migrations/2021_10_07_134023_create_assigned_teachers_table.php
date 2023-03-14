@@ -15,6 +15,7 @@ class CreateAssignedTeachersTable extends Migration
         Schema::create('assigned_teachers', function (Blueprint $table) {
             $table->id();
             $table->foreignId('teacher_id')->constrained('users')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('academy_section_id')->nullable()->constrained('academy_sections')->cascadeOnUpdate()->cascadeOnDelete();
             $table->foreignId('course_id')->constrained('courses')->cascadeOnUpdate()->cascadeOnDelete();
             $table->foreignId('class_id')->constrained('school_classes')->cascadeOnUpdate()->cascadeOnDelete();
             $table->foreignId('section_id')->constrained('sections')->cascadeOnUpdate()->cascadeOnDelete();

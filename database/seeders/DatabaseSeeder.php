@@ -24,7 +24,8 @@ class DatabaseSeeder extends Seeder
             // call roles and permissions seeder
             RolesAndPermissionsSeeder::class,
             UserSeeder::class,
-            AcademicSettingTableSeeder::class,
+            SchoolClassSeeder::class,
+            CourseSeeder::class,
         ]);
     }
 }
